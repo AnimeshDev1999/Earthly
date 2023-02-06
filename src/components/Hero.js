@@ -10,7 +10,7 @@ const Hero = () => {
         rgba(0, 0, 0, .7),
         rgba(30, 124, 255, 0)
       ), url(${sustain})`,
-        height: "60vh",
+        height: "80vh",
       }}
       className="flex flex-col justify-center items-center bg-cover w-full bg-gradient-to-r from-black text-slate-200"
     >

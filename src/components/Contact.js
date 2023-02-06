@@ -7,8 +7,10 @@ const Contact = () => {
       <div className="flex justify-center items-center w-full text-slate-800">
         <div className="flex justify-center items-center w-3/4 bg-gradient-to-br from-green-200 to-green-800  sm:overflow-scroll md:overflow-hidden lg:overflow-hidden my-12 rounded-2xl">
           <div className="md:w-4/5 lg:w-2/3 p-12">
-            <h2 className="text-3xl font-semibold">Get in touch</h2>
-            <p className="text-xl mb-8">
+            <h2 className="sm:text-3xl md:text-3xl lg:text-4xl font-semibold sm:pl-0 md:pl-0 lg:pl-10">
+              Get in touch
+            </h2>
+            <p className="sm:text-xl md:text-xl lg:text-2xl md:mb-8 lg:mb-16 sm:pl-0 md:pl-0 lg:pl-10">
               Join the community of people who are changing the future.
             </p>
             <form
