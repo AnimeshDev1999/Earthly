@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 const Footer = () => {
   return (
     <Fade>
-      <div className="flex flex-col bg-green-100 justify-center items-center w-full text-slate-800 py-10">
+      <div className="flex flex-col bg-green-100 justify-center items-center sm:px-6 md:px-0 lg:px-0 w-full text-slate-800 py-10">
         <h3 className="text-xl font-semibold uppercase mb-4">Contact us</h3>
         <p>
           <svg

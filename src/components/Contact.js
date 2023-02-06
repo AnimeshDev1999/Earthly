@@ -5,15 +5,15 @@ const Contact = () => {
   return (
     <Fade bottom>
       <div className="flex justify-center items-center w-full text-slate-800">
-        <div className="flex justify-center items-center w-3/4 bg-gradient-to-br from-green-200 to-green-800 h-96 overflow-hidden my-12 rounded-2xl">
-          <div className="w-2/3 p-12">
+        <div className="flex justify-center items-center w-3/4 bg-gradient-to-br from-green-200 to-green-800  sm:overflow-scroll md:overflow-hidden lg:overflow-hidden my-12 rounded-2xl">
+          <div className="md:w-4/5 lg:w-2/3 p-12">
             <h2 className="text-3xl font-semibold">Get in touch</h2>
             <p className="text-xl mb-8">
               Join the community of people who are changing the future.
             </p>
             <form
               action=""
-              className="w-full grid grid-cols-2 place-items-center gap-4"
+              className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 place-items-center gap-4"
             >
               <div className="place-self-center">
                 <label htmlFor="" className="block">
@@ -62,7 +62,7 @@ const Contact = () => {
     ), url(${cta})`,
               height: "60vh",
             }}
-            className="w-1/3 bg-cover bg-center"
+            className="sm:hidden md:hidden lg:block w-1/3 bg-cover bg-center"
           ></div>
         </div>
       </div>

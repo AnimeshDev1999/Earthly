@@ -2,17 +2,17 @@ import Fade from "react-reveal/Fade";
 
 const About = () => {
   return (
-    <div className="text-slate-800 flex flex-col justify-center items-center py-20 w-full">
-      <div className="w-2/3">
+    <div className="text-slate-800 flex flex-col justify-center items-center py-20 sm:px-8 w-full">
+      <div className="lg:w-2/3 md:w-5/6">
         <Fade>
-          <h3 className="text-3xl font-semibold text-green-900 mb-4">
+          <h3 className="sm:text-2xl md:text-3xl lg:text-3xl font-semibold text-green-900 mb-4">
             What is Earthly?
           </h3>
-          <h3 className="text-4xl font-bold mb-12">
+          <h3 className="sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-12">
             A sustainable prodict kit that provides
           </h3>
         </Fade>
-        <div className="grid grid-cols-4 gap-8 p-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 p-6">
           <Fade left cascade>
             <div className="flex flex-col justify-center items-start">
               <svg
